@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+#leftContent{
+				width:610px;
+				padding:8px 15px;
+				border:none;
+				border-right:1px solid #cccccc;
+				font-size:12px;
+				float:left;
+				text-align:left;
+			}
+				#nameCompany{
+					color:#DD4B39;
+					font-size:18px;
+					font-weight:700;
+				}
+				#confirmInfor{
+					font-size:11px;
+					color:#999999;
+					padding:10px 0;
+				}
+				#companyInfor{
+
+				}
+					.paddingTD{
+						padding-left:15px;
+						line-height:20px;
+						font-size:12px;
+					}
+					.paddingTD a{
+						color: #009933;
+					}
+				#txtContent{
+					margin-top:10px;
+				}
+				#txtContent p{
+					margin:10px 0;
+				}
+					#txtContent .title{
+						font-size:14px;
+						color:#666666;
+						font-weight:700;
+					}
+					#txtContent .content{
+						text-align:justify;
+					}
+					#txtContent .content a{
+						color:#000000;
+						line-height:25px;
+					}
+					#txtContent .list{
+						padding-left:10px;
+						background:url(http://niengiamtrangvang.com/Business/images/red_dot.gif) center left no-repeat;
+						margin-left:15px;
+						line-height:20px;
+					}
+					.txtTitleHS{
+						color:#888888;
+						font-weight:700;
+						font-size:12px;
+						line-height:24px;
+					}
+			#rightContent{
+				margin-left:645px;
+				padding:10px;
+				text-align:left;
+			}
+				.titleRight{
+					color:#FF6000;
+					font-weight:700;
+					font-size:14px;
+					text-transform:uppercase
+				}
+				#rightTable{
+					margin-top:10px;
+					font-size:13px
+				}
+				#rightTable td{
+					height:22px;
+				}
+					.nameRow{
+						font-family:verdana;
+						font-size:13px;
+						font-weight:700;
+						color:#999999;
+					}
+#container{
+	margin-top:2px;
+	margin-left: 6px;
+	margin-bottom:15px;
+}
+	.viewMore a{
+		float:right;
+		padding: 2px 5px;
+		color:#000000;
+		text-align: center;
+		margin-right:1px;
+		margin-top:6px;
+		width: auto;
+		font-size:11px;
+		background:#F1F1F1;
+		border-radius: 7px;
+		display: block;
+	}
+	#mainImages{
+		width:300px;
+		height:210px;
+		margin-bottom:10px;
+	}
+
+						ul.productList{
+							list-style: none;
+							margin-left: 1px;
+							padding: 0;
+						}
+							.productList li{
+								float: left;
+								font-size: 11px;
+								list-style: none outside none;
+								margin: 4px 2px 0;
+								min-height: 12em;
+								overflow: hidden;
+								padding: 6px;
+								position: relative;
+								width: 150px;
+								height: 100% !important;
+								text-align:center;
+								padding-bottom:10px;
+								margin-right:15px;
+							}
+								.productList li:hover{
+									background:#ffffff;
+								}
+								.productName{
+									height:27px;
+									overflow:hidden;
+								}
+								.productName a{
+									font-size: 12px;
+									color: #444444!important;
+									line-height:13px;
+									}
+									.productName a:hover{
+									text-decoration:underline;
+									color:#CFBA8E;
+								}
+		.featureSelectProductPhoto{ padding:0px; text-align:left;  position:relative; border:#cccccc 1px solid; background:#FFFFFF; z-index:1px;  margin-bottom:8px;}
+	/*Recommended products end*/
+	/* <<< pic text-align:center and  vertical-align:middle */
+
+		.pic{ *font-size:100px; overflow:hidden;  table-layout: fixed; display:table!important;display:block;_margin-top:1px; vertical-align:middle; background-color:#FFFFFF }
+
+		.pic .picRind{ display:table-cell; vertical-align:middle; text-align:center;     /* IE Hack */ *display: block; *font-size: 87.3%;/* height * 0.873*/ *line-height:100%; *font-family:Arial;/* utf-8 hack */ *width:100%; *height:100%; }
+
+		.pic .picCore { vertical-align:middle; }
+		.pic img{ }
+		/* pic >>> */
+		.productList .featureSelectProductPhoto{width:150px; height:150px;}
+		.productList .pic{width:150px; height:150px;}
+		.productList .pic img{max-width:140px; max-height:140px;}
+.nameGroup{
+	color: #FF6000!important;
+	font-weight: 700;
+	font-size: 14px;
+	text-transform: uppercase;
+}

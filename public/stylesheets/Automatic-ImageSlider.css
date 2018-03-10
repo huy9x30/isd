@@ -1,0 +1,48 @@
+/*--Main Container--*/
+.main_view {
+	float: left;
+	position: relative;
+	margin-top:2px;
+	margin-left:0px;
+	margin-right:10px;
+	margin-bottom:10px;
+	border: #a8a8a8 2px solid;
+}
+/*--Window/Masking Styles--*/
+.window {
+	height:176px;	width: 235px;
+	overflow: hidden; /*--Hides anything outside of the set width/height--*/
+	position: relative;
+}
+.image_reel {
+	position: absolute;
+	top: 0; left: 0;
+}
+.image_reel img {float: left;}
+
+/*--Paging Styles--*/
+.paging {
+	position: absolute;
+	top: -3px; right: -65px;
+	width: 50px; height:200px;
+	z-index: 100; /*--Assures the paging stays on the top layer--*/
+	text-align: center;
+	line-height: 40px;
+	display: none; /*--Hidden by default, will be later shown with jQuery--*/
+	float:left;
+}
+.paging a {
+	padding: 3px 5px;
+	text-decoration: none;
+	color: #f8cf1d;
+	font-size:8pt;
+	max-height:5px
+}
+.paging a.active {
+	font-weight: bold;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	color:#FFFFFF;
+}
+.paging a:hover {font-weight: bold;}
